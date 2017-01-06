@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testcases.hybridTestCases.addUserWithReport">
+        <methods>
+          <include name="endTest"/>
+          <include name="endReport"/>
+          <include name="setupReport"/>
+          <include name="tearDown"/>
+          <include name="searchUSer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.hybridTestCases.addUserWithReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
